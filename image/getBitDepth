@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+tiffinfo $1 | grep Bits | sed s/"  Bits\/Sample: "// 

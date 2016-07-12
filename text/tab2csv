@@ -1,0 +1,18 @@
+#!/usr/local/bin/python
+
+import sys
+import re
+
+def quote_field(s):
+    return '"%s"' % (s,)
+
+for line in sys.stdin:
+    line = line.strip() 
+    line = re.sub('"', '""', line)
+    fields = line.split('\t')
+    quoted_fields = map(quote_field, fields)
+    csv_line = ','.join(quoted_fields)
+    print csv_line
+    
+    
+

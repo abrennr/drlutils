@@ -1,0 +1,2 @@
+#!/usr/bin/bash
+exiftool -fast -t -ImageSize $1 | awk '{print $3}'

@@ -1,0 +1,75 @@
+# xml-related configurations
+COPYRIGHTMD = '{http://www.cdlib.org/inside/diglib/copyrightMD}'
+COPYRIGHTMD_NS_MAP = {'copyrightMD': 'http://www.cdlib.org/inside/diglib/copyrightMD'}
+DC_NS_MAP = {'dc': 'http://purl.org/dc/elements/1.1/'}
+EAD = '{urn:isbn:1-931666-22-9}'
+EAD_NS_MAP = {'ead': 'urn:isbn:1-931666-22-9'}
+KML_NS_MAP = {'kml' : 'http://www.opengis.net/kml/2.2'}
+MODS = '{http://www.loc.gov/mods/v3}'
+MODS_NS_MAP = {'mods': 'http://www.loc.gov/mods/v3', 'copyrightMD' : 'http://www.cdlib.org/inside/diglib/copyrightMD'}
+XLINK = '{http://www.w3.org/1999/xlink}'
+XLINK_NS_MAP = {'ns2': 'http://www.w3.org/1999/xlink'}
+XSI = '{http://www.w3.org/2001/XMLSchema-instance}'
+
+# xsl file locations
+MARC2MODS_XSL = '/lib/xsl/marc2mods.xsl'
+METS2DLXS_XSL = '/lib/xsl/mets2DlxsBody.xsl'
+MODS2DC_XSL = '/lib/xsl/mods2dc_.xsl'
+MODS2DLXS_XSL = '/lib/xsl/mods2DlxsHeader.xsl'
+MODS2PDFHEADER_XSL = '/lib/xsl/mods2pdfHeader.xsl'
+EAD2MODS_XSL = '/lib/xsl/ead2mods.xsl'
+XML2PAGEVIEW_XSL = '/lib/xsl/xml2pageview.xsl'
+
+# local directory paths 
+BODYBUILDER_PATH = '/usr/local/prep/public/metadataGen'
+DELIVERY_PATH = '/usr/local/prep/public/delivery'
+DLXS_IMAGE_PATH = '/usr/local/prep/d/img'
+DLXS_OBJ_PATH = '/usr/local/prep/d/obj'
+DLXS_PAGEVIEW_PATH = '/usr/local/prep/d/pageview'
+DLXS_PDF_PATH = '/usr/local/prep/d/pdf'
+DLXS_XML_PATH = '/usr/local/prep/d/xml'
+MACROB_PATH = '/usr/local/prep/m/macro_b'
+MARCXML_PATH = '/usr/local/prep/m/marcxml'
+MODS_PATH = '/usr/local/prep/m/mods'
+OCR_PATH = '/usr/local/prep/public/o/ocr'
+OCR_PREPROCESS_PATH = '/usr/local/prep/public/o/ocr_preprocess'
+REPOSITORY_ROOT = '/usr/local/repository'
+REMOTE_IMG_PATH = 'server:/usr/local/img'
+REMOTE_PDF_PATH = 'server:/usr/local/web/'
+REMOTE_OBJ_PATH = 'server:/usr/local/obj/delivery/'
+REMOTE_XML_PATH = 'server:/usr/local/prep'
+
+
+# other local files
+COPYRIGHT_TXT = '/lib/utils/copyright.txt'
+DUMMY_JP2 = '/bin/image/1x1.jp2'
+FGDC_TEMPLATE_FILE = '/lib/utils/gis/fgdc_template.xml' 
+KML_POINT_TEMPLATE_FILE = '/lib/utils/gis/kml_point_template.xml' 
+PD_EXPIRED_TXT = '/lib/utils/pd_expired.txt'
+PITTPRESS_CSV = '/lib/utils/pittpress.csv'
+
+# external applications / tools
+GETBITDEPTH = '/lib/utils/image/getBitDepth'
+GETDIMENSIONS = '/lib/utils/image/getDimensions'
+GHOSTSCRIPT = '/usr/local/bin/gs'
+GM = '/usr/local/bin/gm'
+JAVA = '/usr/bin/java'
+KDU_COMPRESS = '/usr/local/bin/kdu_compress'
+PDFTOTEXT = '/usr/local/bin/pdftotext'
+# REMOVE
+PDF_ENCODER = '/bin/image/encodePdf'
+PDF_OPTIMIZER = '/usr/local/bin/pdfopt'
+SAXON = '/usr/local/prep/bin/saxon/saxon8.jar'
+TIFF2BW = '/usr/bin/tiff2bw'
+ZOOMIFY_ENCODER = '/bin/image/encodeZoomify'
+
+# messaging
+INGEST_RECIPIENTS = ['admin@yoursite.net']
+BODYBUILDER_RECIPIENTS = ['admin@yoursite.net']
+MACROB_RECIPIENTS = ['admin@yoursite.net']
+ERROR_RECIPIENTS = ['admin@yoursite.net']
+MESSAGE_FROM = 'admin@yoursite.net'
+SMTP = 'smtp.yoursite.net'
+DJANGO_HOST = 'somesite.net'
+WEB_HOST = 'somesite.net'
+HOSTNAME = 'yourhostname'

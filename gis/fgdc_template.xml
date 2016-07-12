@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE metadata SYSTEM "http://www.fgdc.gov/metadata/fgdc-std-001-1998.dtd">
+<metadata>
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>Digital Research Library, University Library System, University of Pittsburgh</origin>
+                <pubdate></pubdate>
+                <title></title>
+                <geoform>Georeferenced Digital Raster Graphic</geoform>
+                <pubinfo>
+                    <pubplace>Pittsburgh, PA</pubplace>
+                    <publish>University Library System, University of Pittsburgh</publish>
+                </pubinfo>
+                <lworkcit>
+                    <citeinfo>
+                        <origin></origin>
+                        <pubdate></pubdate>
+                        <title></title>
+                        <geoform>Map</geoform>
+                        <pubinfo>
+                            <pubplace></pubplace>
+                            <publish></publish>
+                        </pubinfo>
+                        <lworkcit>
+                            <citeinfo>
+                                <origin></origin>
+                                <pubdate></pubdate>
+                                <title></title>
+                                <geoform>Atlas</geoform>
+                                <pubinfo>
+                                    <pubplace></pubplace>
+                                    <publish></publish>
+                                </pubinfo>
+                            </citeinfo>
+                        </lworkcit>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract></abstract>
+            <purpose></purpose>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate></caldate>
+                </sngdate>
+            </timeinfo>
+            <current>Source map publication date</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None Planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-</westbc>
+                <eastbc>-</eastbc>
+                <northbc></northbc>
+                <southbc></southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey></themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey></placekey>
+            </place>
+        </keywords>
+        <accconst>[Template TBD]</accconst>
+        <useconst>[Template TBD]</useconst>
+    </idinfo>
+    <dataqual>
+        <logic>The digital raster graphic captures the entire source map.</logic>
+        <complete>The completeness of the digital raster graphic depends on the source map.  Features may have been omitted or generalized to suit the cartographic needs of the original map creator.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>The horizontal accuracy of the digital data is dependent on the accuracy of the paper source map.  In addition, inaccuracies may be introduced by the georeferencing process in which the raster image of the source map is transformed to a new raster dataset in order to fit the digital image to a known representation of the surface of the earth.  The root mean square (RMS) value is an estimation of errors introduced during the georeferencing process..</horizpar>
+            </horizpa>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin></origin>
+                        <pubdate></pubdate>
+                        <title></title>
+                        <geoform>Map</geoform>
+                        <pubinfo>
+                            <pubplace></pubplace>
+                            <publish></publish>
+                        </pubinfo>
+                    </citeinfo>
+                </srccite>
+                <srcscale></srcscale>
+                <typesrc>Paper</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate></caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Publication date</srccurr>
+                </srctime>
+                <srccitea></srccitea>
+                <srccontr>The graphics in the paper source map contain the original geographic information as captured by contemporary surveyors and cartographers.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>Digital Research Library, University Library System, University of Pittsburgh</origin>
+                        <pubdate/>
+                        <title/>
+                        <geoform>Digital Raster Graphic</geoform>
+                        <pubinfo>
+                            <pubplace>Pittsburgh, PA</pubplace>
+                            <publish>University Library System, University of Pittsburgh</publish>
+                        </pubinfo>
+                    </citeinfo>
+                </srccite>
+                <srcscale></srcscale>
+                <typesrc>Digital TIFF Image</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <mdattim>
+                            <sngdate>
+                                <caldate>2000</caldate>
+                            </sngdate>
+                            <sngdate>
+                                <caldate>Present</caldate>
+                            </sngdate>
+                        </mdattim>
+                    </timeinfo>
+                    <srccurr>Scan date</srccurr>
+                </srctime>
+                <srccitea></srccitea>
+                <srccontr>The digital raster graphic contains the original content of the source map as represented in 24-bit color digitization in RGB bands.</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin></origin>
+                        <pubdate></pubdate>
+                        <title></title>
+                        <geoform></geoform>
+                        <pubinfo>
+                            <pubplace></pubplace>
+                            <publish></publish>
+                        </pubinfo>
+                    </citeinfo>
+                </srccite>
+                <srcscale></srcscale>
+                <typesrc></typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate></caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>Publication date</srccurr>
+                </srctime>
+                <srccitea></srccitea>
+                <srccontr>Allegheny Streets 2006 served as the georeferencing layer when georectifying the dataset.</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>[Template TBD]</procdesc>
+                <srcused></srcused>
+                <procdate></procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct></direct>
+        <rastinfo>
+            <rasttype></rasttype>
+            <rowcount></rowcount>
+            <colcount></colcount>
+        </rastinfo>
+    </spdoinfo>
+    <spref>
+        <horizsys>
+            <planar>
+                <mapproj>
+                    <mapprojn>WGS_1984_Web_Mercator</mapprojn>
+                    <mercator>
+                        <stdparll>0.000000</stdparll>
+                        <longcm>0.000000</longcm>
+                        <feast>0.000000</feast>
+                        <fnorth>0.000000</fnorth>
+                    </mercator>
+                </mapproj>
+                <planci>
+                    <plance>coordinate pair</plance>
+                    <coordrep>
+                        <absres></absres>
+                        <ordres></ordres>
+                    </coordrep>
+                    <plandu>Meter</plandu>
+                </planci>
+            </planar>
+            <geodetic>
+                <horizdn>D_WGS_1984_Major_Auxiliary_Sphere</horizdn>
+                <ellips>WGS_1984_Major_Auxiliary_Sphere</ellips>
+                <semiaxis>6378137.000000</semiaxis>
+                <denflat>infinity</denflat>
+            </geodetic>
+        </horizsys>
+    </spref>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>University Library System, University of Pittsburgh</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>Digital Research Library, Room 306, 7500 Thomas Blvd</address>
+                    <city>Pittsburgh</city>
+                    <state>PA</state>
+                    <postal>15260</postal>
+                </cntaddr>
+                <cntvoice>412-244-7527</cntvoice>
+            </cntinfo>
+        </distrib>
+        <resdesc></resdesc>
+        <distliab>[Insert Liability Statement Here]</distliab>
+    </distinfo>   
+    <metainfo>
+        <metd></metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>University Library System, University of Pittsburgh</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>mailing</addrtype>
+                    <address>Digital Research Library, Room 306, 7500 Thomas Blvd</address>
+                    <city>Pittsburgh</city>
+                    <state>PA</state>
+                    <postal>15260</postal>
+                </cntaddr>
+                <cntvoice>412-244-7527</cntvoice>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC, Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+    </metainfo>
+</metadata>
